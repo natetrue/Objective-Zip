@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5040FD201F6700D500F95BF2 /* Objective-Zip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3D81BAEE4A100DBB3D0 /* Objective-Zip.h */; };
+		5040FD211F6700D500F95BF2 /* Objective-Zip+NSError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3D91BAEE4A100DBB3D0 /* Objective-Zip+NSError.h */; };
+		5040FD221F6700D500F95BF2 /* OZZipFile.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E11BAEE4A100DBB3D0 /* OZZipFile.h */; };
+		5040FD231F6700D500F95BF2 /* OZZipFile+NSError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E31BAEE4A100DBB3D0 /* OZZipFile+NSError.h */; };
+		5040FD241F6700D500F95BF2 /* OZZipFile+Standard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E41BAEE4A100DBB3D0 /* OZZipFile+Standard.h */; };
+		5040FD251F6700D500F95BF2 /* OZZipFileMode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E51BAEE4A100DBB3D0 /* OZZipFileMode.h */; };
+		5040FD261F6700D500F95BF2 /* OZZipCompressionLevel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3DD1BAEE4A100DBB3D0 /* OZZipCompressionLevel.h */; };
+		5040FD271F6700D500F95BF2 /* OZFileInZipInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3DA1BAEE4A100DBB3D0 /* OZFileInZipInfo.h */; };
+		5040FD281F6700D500F95BF2 /* OZFileInZipInfo+Internals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3DC1BAEE4A100DBB3D0 /* OZFileInZipInfo+Internals.h */; };
+		5040FD291F6700D500F95BF2 /* OZZipReadStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E61BAEE4A100DBB3D0 /* OZZipReadStream.h */; };
+		5040FD2A1F6700D500F95BF2 /* OZZipReadStream+Internals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E81BAEE4A100DBB3D0 /* OZZipReadStream+Internals.h */; };
+		5040FD2B1F6700D500F95BF2 /* OZZipReadStream+NSError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E91BAEE4A100DBB3D0 /* OZZipReadStream+NSError.h */; };
+		5040FD2C1F6700D500F95BF2 /* OZZipReadStream+Standard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3EA1BAEE4A100DBB3D0 /* OZZipReadStream+Standard.h */; };
+		5040FD2D1F6700D500F95BF2 /* OZZipWriteStream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3EB1BAEE4A100DBB3D0 /* OZZipWriteStream.h */; };
+		5040FD2E1F6700D500F95BF2 /* OZZipWriteStream+Internals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3ED1BAEE4A100DBB3D0 /* OZZipWriteStream+Internals.h */; };
+		5040FD2F1F6700D500F95BF2 /* OZZipWriteStream+NSError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3EE1BAEE4A100DBB3D0 /* OZZipWriteStream+NSError.h */; };
+		5040FD301F6700D500F95BF2 /* OZZipWriteStream+Standard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3EF1BAEE4A100DBB3D0 /* OZZipWriteStream+Standard.h */; };
+		5040FD311F6700D500F95BF2 /* OZZipException.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3DE1BAEE4A100DBB3D0 /* OZZipException.h */; };
+		5040FD321F6700D500F95BF2 /* OZZipException+Internals.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8C59F3E01BAEE4A100DBB3D0 /* OZZipException+Internals.h */; };
 		8C59F3821BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; };
 		8C59F3831BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3811BAEE3BC00DBB3D0 /* Objective-Zip_Swift_Tests.swift */; };
 		8C59F39E1BAEE48600DBB3D0 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C59F3841BAEE48600DBB3D0 /* adler32.c */; };
@@ -119,6 +138,25 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				5040FD201F6700D500F95BF2 /* Objective-Zip.h in CopyFiles */,
+				5040FD211F6700D500F95BF2 /* Objective-Zip+NSError.h in CopyFiles */,
+				5040FD221F6700D500F95BF2 /* OZZipFile.h in CopyFiles */,
+				5040FD231F6700D500F95BF2 /* OZZipFile+NSError.h in CopyFiles */,
+				5040FD241F6700D500F95BF2 /* OZZipFile+Standard.h in CopyFiles */,
+				5040FD251F6700D500F95BF2 /* OZZipFileMode.h in CopyFiles */,
+				5040FD261F6700D500F95BF2 /* OZZipCompressionLevel.h in CopyFiles */,
+				5040FD271F6700D500F95BF2 /* OZFileInZipInfo.h in CopyFiles */,
+				5040FD281F6700D500F95BF2 /* OZFileInZipInfo+Internals.h in CopyFiles */,
+				5040FD291F6700D500F95BF2 /* OZZipReadStream.h in CopyFiles */,
+				5040FD2A1F6700D500F95BF2 /* OZZipReadStream+Internals.h in CopyFiles */,
+				5040FD2B1F6700D500F95BF2 /* OZZipReadStream+NSError.h in CopyFiles */,
+				5040FD2C1F6700D500F95BF2 /* OZZipReadStream+Standard.h in CopyFiles */,
+				5040FD2D1F6700D500F95BF2 /* OZZipWriteStream.h in CopyFiles */,
+				5040FD2E1F6700D500F95BF2 /* OZZipWriteStream+Internals.h in CopyFiles */,
+				5040FD2F1F6700D500F95BF2 /* OZZipWriteStream+NSError.h in CopyFiles */,
+				5040FD301F6700D500F95BF2 /* OZZipWriteStream+Standard.h in CopyFiles */,
+				5040FD311F6700D500F95BF2 /* OZZipException.h in CopyFiles */,
+				5040FD321F6700D500F95BF2 /* OZZipException+Internals.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
